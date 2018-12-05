@@ -1,0 +1,188 @@
+body{
+	background: #f1f1f1;
+}
+header{
+	background: #2D4571;
+	color: #7688A9;
+}
+header h2{
+	display: inline-block;
+	width: 40%;
+	font-size: 1.3em;
+	padding: 0.6em 3em;
+	font-weight: bold;
+	text-align: center;
+}
+header nav{
+	width: 50%;
+	display: inline-block;
+	text-align: right;
+}
+header nav a{
+	text-decoration: none;
+	color: #f3f3f3;
+	padding: 1em 1.3em;
+}
+header nav a:hover{
+	text-decoration: none;
+	background: #5F5293;
+	color: #11073B;
+}
+main{
+	width: 100%;
+	text-align: center;
+	margin: 0em auto;
+}
+.sismo{
+	background: #fff;
+	width: 30%;
+	display: inline-block;
+	padding: 1em;
+	margin: 0.5em;
+	box-shadow: 0px 4px 4px #333;
+	vertical-align: top;
+}
+.sismo h3{
+	font-size: 1.4em;
+}
+.sismo p{
+	font-size: 0.8em;
+}
+.menusaside{
+	width: 15%;
+	background: #E8E1E1;
+	border-right: 1px solid #ccc;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	text-align: justify;
+}
+.menusaside h2{
+	font-size: 1.1em;
+	padding: 0.4em 1em;
+}
+.menusaside a{
+	display: block;
+	padding: 0.2em 1em;
+	font-size: 0.8em;
+	border-bottom: 1px solid  #B2B4B9;
+	color: #4E4E50;
+}
+.menusaside a:hover{
+	text-decoration: none;
+	background: #4E4E50;
+	color: #f4f4f4;
+}
+.content{
+	width: 80%;
+	vertical-align: top;
+	display: inline-block;
+	text-align: justify;
+	margin-left: 10em;
+	font-size: 0.8em;
+}
+.cont1, .cont2{
+	display: inline-block;
+	vertical-align: top;
+}
+.cont1{
+	width: 66%;
+	padding: 0 0.5em;
+}
+.cont2{
+	width: 26%;
+	text-align: right;
+	float: right;
+}
+.content form{
+	width: 100%;
+}
+.cont_right{
+	float: right;
+	width: 98%;
+	display: block;
+}
+.content h3{
+}
+.image_portada{
+	width: 90%;
+}
+.content h3{
+	color: #2D4571;
+}
+.content p{
+	color: #565656;
+}
+.detalle_sismoc{
+	background: #fff;
+	padding: 2em;
+}
+.image_detalle, .contenido_sismo{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+.image_detalle{
+	text-align: center;
+}
+.contenido_sismo{
+	text-align: right;
+	width: 35%;
+}
+.magnitud{
+	color: #734D00;
+	font-weight: bold;
+	 width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+	background: #FFD610;
+	border:3px solid #B79700;
+	float: right;
+	text-align: center;
+	font-size: 2em;
+	padding: 0.7em;
+}
+.mw{
+	font-size: 0.3em;
+}
+.info_sismo{
+	margin-top: 9em;
+}
+.info_s{
+	color: #FFD610;
+	font-weight: bold;
+}
+.info_s2{
+	color: #34312A;
+}
+
+.iconito, .info_rojo{
+	font-size: 2.5em;
+}
+.info_rojo{
+	color: #ff0000;
+	padding: 0 0.2em 0 1em;
+	font-weight: bold;
+}
+.info_gris{
+	color: #333;
+	font-weight: bold;
+	font-size: 0.6em;
+}
+.tabla_tdh{
+	font-weight: bold;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+footer{
+	background: #FFEFAA;
+	border-bottom: 1px solid #805A15;
+	border-top: 1px solid #805A15;
+	color: #805A15;
+	padding: 1em 0;
+	text-align: center;
+}
